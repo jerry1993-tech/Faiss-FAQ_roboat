@@ -2,30 +2,30 @@
 Application of Faiss in FAQ-based Question Answering
 
 
-### 1、项目介绍
-  这是基于 FAQ 检索式智能客服自动问答项目中 在QA库中检索时用到的faiss检索的部分。
+## 1、项目介绍
+这是基于 FAQ 检索式智能客服自动问答项目中 在QA库中检索时用到的faiss检索的部分。
   
-  此小项目 demo 仅供实验参考。
+此小项目 demo 仅供实验参考。
 
-### 2、运行环境
+## 2、运行环境
   * python3.7
   * sentence-transformers==2.1.0
   * faiss==1.7.1
   
   其中 faiss 为 cpu 版。
   
-### 3、效果
-  10k+ 条标准question 中检索，余弦相似度为衡量标准：（其中时间单位为 s|秒）
-  """
-  <ul>
-    <li>the number of all vectors: 1094</li>
-    <li>total time of search top k: 7.441043853759766e-07</li>
-    <li>[(0.9268576, '如何购买会员'), (0.85469526, '知乎盐选会员怎么买')]</li>
-  </ul>
-  """
-  ![运行结果图](https://github.com/xuyingjie521/Faiss-FAQ_roboat/show_result.png)
+## 3、效果
+10k+ 条标准question 中检索，余弦相似度为衡量标准：（其中时间单位为 s|秒）
 
-### 交流
+```
+the number of all vectors: 1094
+total time of search top k: 7.441043853759766e-07</li>
+[(0.9268576, '如何购买会员'), (0.85469526, '知乎盐选会员怎么买')]</li>
+```
+
+![运行结果图](https://img-blog.csdnimg.cn/show_result.png)
+
+## 交流
   本项目作为笔者在之前工作中项目背景下的一小部分实验 demo。 
   源码和数据已经在项目中给出。
   
