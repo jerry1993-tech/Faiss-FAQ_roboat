@@ -14,7 +14,7 @@ faiss 在基于FAQ检索式智能客服上的应用
   
 ### 效果
   10k+ 条标准question 中检索，余弦相似度为衡量标准：（其中时间单位为 s|秒）
-  ![运行结果图](https://img-blog.csdnimg.cn/show_result.png)
+  ![运行结果图](https://github.com/xuyingjie521/Faiss-FAQ_roboat/show_result.png)
 
 ### 交流
   本项目作为笔者在之前工作中项目背景下的一小部分实验 demo。 
