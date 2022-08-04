@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # Author: yuyangmu
-# Description: 通过 faiss 进行余弦相似度检索
+# Description: query通过 faiss 进行余弦相似度检索
 # Date: 2022-07-30
 
 
