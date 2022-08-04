@@ -1,0 +1,8 @@
+faiss==1.7.1
+numpy==1.22.3
+protobuf==3.20.0
+sentence-transformers==2.1.0
+tokenizers==0.10.3
+torch==1.8.0
+torch-summary==1.4.5
+transformers==4.9.1
