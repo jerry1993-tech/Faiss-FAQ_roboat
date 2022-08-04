@@ -93,10 +93,10 @@ if __name__ == "__main__":
     is_type = "COS_SIM"
     query = "会员如何自动续费？"
 
-    model = SentenceTransformer('./training_similarity_model_2021-12-24_15-36-08')
+    model = SentenceTransformer('./model/training_similarity_model_2021-12-24_15-36-08')
     summary(model)
 
-    qt2Vec_file = "qt2vec.txt"
+    qt2Vec_file = "./model/qt2vec.txt"
     id2Qt, faiss_index = get_faiss_index(qt2Vec_file, is_type)
 
     query_vec = model.encode(query)
