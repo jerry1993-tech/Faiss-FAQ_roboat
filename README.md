@@ -1,5 +1,4 @@
 # faiss 在基于FAQ检索式智能客服上的应用
-Application of Faiss in FAQ-based Question Answering
 
 
 ## 1、项目介绍
@@ -19,8 +18,8 @@ Application of Faiss in FAQ-based Question Answering
 
 ```
 the number of all vectors: 1094
-total time of search top k: 7.441043853759766e-07</li>
-[(0.9268576, '如何购买会员'), (0.85469526, '知乎盐选会员怎么买')]</li>
+total time of search top k: 7.441043853759766e-07 s
+[(0.9268576, '如何购买会员'), (0.85469526, '知乎盐选会员怎么买')]
 ```
 
 ![运行结果图](https://img-blog.csdnimg.cn/show_result.png)
