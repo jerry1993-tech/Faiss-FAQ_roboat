@@ -91,7 +91,7 @@ class IndexOfL2(object):
 if __name__ == "__main__":
     k = 2
     is_type = "COS_SIM"
-    query = "会员如何自动续费？"
+    query = "我在哪儿购买会员呀？"
 
     model = SentenceTransformer('./model/training_similarity_model_2021-12-24_15-36-08')
     summary(model)
