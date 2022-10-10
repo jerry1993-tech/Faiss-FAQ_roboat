@@ -23,7 +23,9 @@ total time of search top k: 7.441043853759766e-07 s
 [(0.9268576, '如何购买会员'), (0.85469526, '知乎盐选会员怎么买')]
 ```
 
-![运行结果图](https://img-blog.csdnimg.cn/show_result.png)
+![运行结果图](https://github.com/xuyingjie521/Faiss-FAQ_roboat/blob/main/show_result.png)
+![image](https://github.com/xuyingjie521/Faiss-FAQ_roboat/blob/main/show_result.png)
+
 
 ## 交流
   本项目作为笔者在之前工作中项目背景下的一小部分实验 demo。 
